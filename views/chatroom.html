@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Chat Room</title>
+        <meta name="author" content="Yuehua Xu">
+        <link href="css/chatroom.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/socket.io-1.2.0.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="js/chatroom.js"></script>
+    </head>
+
+    <body>
+    <ul class="list-group" id="messages"></ul>
+    <form action="">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="input-group">
+                    <input id="m" type="text" class="form-control" autocomplete="off" placeholder="Please type...">
+                    <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Send</button>
+            </span>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    </body>
+</html>
